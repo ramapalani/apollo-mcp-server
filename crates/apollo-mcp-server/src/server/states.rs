@@ -361,6 +361,7 @@ mod tests {
             disable_schema_description: false,
             enable_output_schema: false,
             disable_auth_token_passthrough: false,
+            header_transform: None,
             health_check: None,
             server_info: ServerInfoConfig::default(),
         }
@@ -400,6 +401,7 @@ mod tests {
             health_check: HealthCheckConfig::default(),
             cors: CorsConfig::default(),
             server_info: ServerInfoConfig::default(),
+            header_transform: None,
         }
     }
 
